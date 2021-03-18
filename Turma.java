@@ -8,7 +8,7 @@ package projetoStraus;
         private String turnoTurma;
         private double notasAluno;
 
-        public Turma(){}
+        
 
         public int getCodigoTurma() {
             return codigoTurma;
@@ -50,15 +50,16 @@ package projetoStraus;
             this.notasAluno = notasAluno;
         }
 
-        public void adicionarAluno(Aluno) {}
-
-        public void editarAluno(Aluno) {}
-
-        public void removerAluno(Aluno) {
+        public void adicionarAluno(Aluno a) {
         	
         }
 
+        public void editarAluno(Aluno a) {
+        	
+        }
 
-    }
+        public void removerAluno(Aluno a) {
+        	
+        }
     
 	}
