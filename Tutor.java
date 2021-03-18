@@ -1,7 +1,16 @@
 package projetoStraus;
 
 public class Tutor extends Usuario{
-	public void editarTutor() {}
 	
-	public boolean removerTutor() {return true;}
+	private int siape;
+
+	public int getSiape() {
+		return siape;
+	}
+
+	public void setSiape(int siape) {
+		this.siape = siape;
+	}
+	
+	
 }

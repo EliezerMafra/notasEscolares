@@ -6,6 +6,11 @@ public abstract class Usuario {
 	private int cpf;
 	private String endereco;
 	private String senha;
+	
+	public boolean efetuarLogin() {return true;}
+	
+	public void recuperarSenha() {}
+	
 	public int getCodIdentificacao() {
 		return codIdentificacao;
 	}
@@ -36,21 +41,5 @@ public abstract class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
-	public void cadastrar() {}
-	
-	public boolean efetuarLogin() {return true;}
-	
-	public void recuperarSenha() {}
-	
-	public void visualizarAtividades() {}
-	
-	public void uploadDocumento() {}
-	
-	public void editarDocumento() {}
-	
-	public void removerDocumento() {}
-	
-	
-	
+		
 }
