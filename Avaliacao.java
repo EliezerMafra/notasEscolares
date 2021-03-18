@@ -1,3 +1,5 @@
+package projetoStraus;
+
 import java.util.Date;
 import java.io.File;
 
@@ -6,7 +8,7 @@ public class Avaliacao {
     private int codigoAvaliacao;
     private int valor;
     private Date dataAplicacao;
-    private FILE arquivo;
+    private File arquivo;
 
     public avaliacao(){}
 
@@ -34,22 +36,22 @@ public class Avaliacao {
         this.valor = valor;
     }
 
-    public FILE getArquivo() {
+    public File getArquivo() {
         return arquivo;
     }
 
-    public void setArquivo(FILE arquivo) {
+    public void setArquivo(File arquivo) {
         this.arquivo = arquivo;
     }
 
-    public void uploadDocumento(FILE arquivo){
-        setArquivo(FILE arquivo);
+    public void uploadDocumento(File arquivo){
+        setArquivo(File arquivo);
     }
 
-    public void editarDocumento(FILE arquivo){
+    public void editarDocumento(File arquivo){
     }
 
-    public void removerDocumento(FILE arquivo){
+    public void removerDocumento(File arquivo){
     }
 
 
